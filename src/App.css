@@ -1,0 +1,96 @@
+.container {
+  width: 90%;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.list-container {
+  padding-top: 50px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.heading-text {
+  font-size: 35px;
+  letter-spacing: 1.5px;
+}
+
+.add-button {
+  background-color: green;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px 35px;
+  border-radius: 0px 5px 5px 0px;
+  font-size: 20px;
+}
+
+.controls {
+  display: flex;
+  margin-top: 30px;
+}
+
+.input-control {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-radius: 5px 0px 0px 5px;
+  padding-left: 10px;
+}
+
+.item-box {
+  width: 100%;
+  background-color: aquamarine;
+  padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"].control-check {
+  height: 20px;
+  width: 20px;
+}
+
+.list-input {
+  background-color: aquamarine;
+  border: 1px solid rebeccapurple;
+  outline: none;
+  color: black;
+  margin: 0px 15px 0px 15px;
+  padding: 5px;
+  flex-grow: 1;
+  font-size: 20px;
+}
+
+.list-input:read-only {
+  border: none;
+  outline: none;
+}
+
+.line-cut {
+  text-decoration: line-through;
+}
+
+.icon-size {
+  font-size: 25px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.not-allowed {
+  cursor: not-allowed;
+}
